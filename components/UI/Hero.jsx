@@ -15,16 +15,21 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Chin-Shan (Chelsey)</h2>
+              <h2 className="mt-3 mb-3">I&apos;m Chin-Shan (Chelsey)   ฅʕ•̫͡•</h2>
               <h5 className="mb-4">Frontend Developer</h5>
               <p>
+                Soochow Univeristy class of 2017. 
+                <br/>
+                Majored in Computer Science and Infroamtion Management.
+                <br/>
+                <br/>
                 I am front-end web developer from Taiwan.
                 <br/>
                 Currently learning full-stack web developing in react.js, node.js
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="https://www.linkedin.com/in/chinshanlee/">Connect with me</Link>
+                  <Link href="https://www.linkedin.com/in/chinshanlee/">My LinkedIn</Link>
                 </button>
                 {/* <button className="secondary__btn">
                   <Link href="#">Download CV</Link>

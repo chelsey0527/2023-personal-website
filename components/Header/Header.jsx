@@ -10,7 +10,7 @@ const NAV__LINK = [
   //   display: "Home",
   // },
   {
-    path: "#about",
+    path: "/",
     display: "About",
   },
   // {

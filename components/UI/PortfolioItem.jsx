@@ -17,8 +17,16 @@ const PortfolioItem = (props) => {
       </div>
 
       <div className={`${classes.portfolio__img}`}>
+       <Link href={liveUrl}>
         <Image alt="portfolio-img" src={img} width="380" height="250" />
+       </Link>
       </div>
+
+      {/* <div className={`${classes.portfolio__link}`}>
+        <button className="primary__btn">
+          <Link href={liveUrl} target="_blank" rel="noopener noreferrer">demo</Link>
+        </button> 
+      </div> */}
 
       {/* <div className={`${classes.portfolio__live} bg-transparent`}>
         <button className="primary__btn">
