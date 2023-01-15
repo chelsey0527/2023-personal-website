@@ -76,7 +76,7 @@ const portfolio = [
   },
   {
     id: "10",
-    title: "2021｜SU｜Assignment Management System Design",
+    title: "2019｜SU｜Assignment Management System Design",
     img: "/images/SA.png",
     category: "Other projects",
     keyword: ["UI/UX", "MSQL", "System Analysis"],
