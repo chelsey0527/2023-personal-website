@@ -17,8 +17,10 @@ const PortfolioItem = (props) => {
       </div>
 
       <div className={`${classes.portfolio__img}`}>
-       <Link href={liveUrl}>
-        <Image alt="portfolio-img" src={img} width="380" height="250" />
+       <Link href={liveUrl} className={`${classes.hover}`}>
+        <a>
+          <Image alt="portfolio-img" src={img} width="380" height="250" />
+        </a>
        </Link>
       </div>
 

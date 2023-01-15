@@ -19,7 +19,7 @@ const portfolio = [
   {
     id: "03",
     title: "2022｜Solo｜Sandbox Academy",
-    img: "/images/sandbox.png",
+    img: "/images/Sandbox.png",
     category: "Web Design",
     keyword: ["React.js", "Google APIs", "UI/UX"],
     liveUrl: "https://www.sandboxacademy.com.tw/",

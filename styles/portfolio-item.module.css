@@ -42,6 +42,11 @@
   display: block;
 }
 
+.hover{
+  cursor: pointer;
+}
+
+
 @media only screen and (max-width: 576px) {
   .portfolio__img img {
     width: 100% !important;
