@@ -80,10 +80,10 @@ const Header = () => {
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {" "}
                   <Link href="https://github.com/chelsey0527" target="_blank" rel="noopener noreferrer">
-                    <i className="ri-github-line"></i>
+                    <a><i className="ri-github-line"></i></a>
                   </Link>
                   <Link href="https://www.linkedin.com/in/chinshanlee/" target="_blank" rel="noopener noreferrer">
-                    <i className="ri-linkedin-line"></i>
+                    <a><i className="ri-linkedin-line"></i></a>
                   </Link>
                 </p>
               </div>

@@ -31,7 +31,7 @@ const Contact = () => {
                   <i className="ri-github-line"></i>
                 </span>
                 <Link href="https://github.com/chelsey0527" target="_blank" rel="noopener noreferrer">
-                  <p>chelsey0527</p>
+                  <a><p>chelsey0527</p></a>
                 </Link>
               </li>
               <li className={`${classes.info__item}`}>
@@ -39,7 +39,7 @@ const Contact = () => {
                   <i className="ri-linkedin-line"></i>
                 </span>
                 <Link href="https://www.linkedin.com/in/chinshanlee/" target="_blank" rel="noopener noreferrer">
-                  <p>Chin-Shan (Chelsey), Lee</p>
+                  <a><p>Chin-Shan (Chelsey), Lee</p></a>
                 </Link>
               </li>
               {/* <li className={`${classes.info__item}`}>
