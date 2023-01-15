@@ -5,7 +5,7 @@ const portfolio = [
     title: "Portfolio Website",
     img: "/images/portfolio.png",
     category: "Web Design",
-    keyword: ["next.js", "UI/UX"],
+    keyword: ["next.js"],
     liveUrl: "#",
   },
   {
@@ -38,18 +38,51 @@ const portfolio = [
     img: "/images/famille.png",
     category: "Web Design",
     keyword: ["EJS", "UI/UX"],
-    liveUrl: "#",
+    liveUrl: "",
   },
 
   // Projects
   {
     id: "06",
-    title: "2019｜SU｜Assignment Management System Design",
+    title: "2021｜SU｜Line Chatbot",
+    img: "/images/chatbot.gif",
+    category: "Other projects",
+    keyword: ["Javascript", "Dialogflow"],
+    liveUrl: "",
+  },
+  {
+    id: "07",
+    title: "2021｜Solo｜Tetris",
+    img: "/images/tetris.png",
+    category: "Other projects",
+    keyword: ["Unity", "C#"],
+    liveUrl: "https://github.com/chelsey0527/21-unity-tetris",
+  },
+  {
+    id: "08",
+    title: "2021｜Solo｜Flappy Bird",
+    img: "/images/bird.png",
+    category: "Other projects",
+    keyword: ["Unity", "C#"],
+    liveUrl: "https://github.com/chelsey0527/21-unity-bird",
+  },
+  {
+    id: "09",
+    title: "2021｜SU｜Tower Defense",
+    img: "/images/tower.png",
+    category: "Other projects",
+    keyword: ["Unity", "C#"],
+    liveUrl: "https://github.com/chelsey0527/21-unity-towerDefense",
+  },
+  {
+    id: "10",
+    title: "2021｜SU｜Assignment Management System Design",
     img: "/images/SA.png",
     category: "Other projects",
     keyword: ["UI/UX", "MSQL", "System Analysis"],
     liveUrl: "https://drive.google.com/file/d/1HC7i3v0qMl5YnMEe9UU3Sy2kvqI9wBzr/view?usp=sharing",
   },
+
 ];
 
 export default portfolio;
